@@ -25,7 +25,7 @@ nav {
     display: flex;
     gap: 20px; /* Απόσταση μεταξύ των links */
     margin: 0;
-    padding: 0;
+    padding: 10;
 }
 
 .nav-links li {
