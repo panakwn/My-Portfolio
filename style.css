@@ -7,10 +7,29 @@ body {
     padding: 0;
 }
 
-h1 {
-    color: #007bff;
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
 }
 
-p {
-    font-size: 18px;
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 40px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
