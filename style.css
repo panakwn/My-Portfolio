@@ -1,35 +1,49 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
-    color: #333;
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 15px 30px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Στυλ για το "Panakwn" */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Κάνει το menu bar οριζόντιο */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Απόσταση μεταξύ των links */
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #007bff;
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
     color: white;
-    padding: 20px;
-}
-
-h1 {
-    margin: 0;
-}
-
-section {
-    margin: 40px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-a {
-    color: #007bff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 10px; /* Καλύτερη απόκριση στα κλικ */
 }
 
-a:hover {
+.nav-links a:hover {
     text-decoration: underline;
+}
+
+/* Προσθέτει απόσταση για να μην κρύβεται το περιεχόμενο από το navbar */
+body {
+    padding-top: 70px;
 }
